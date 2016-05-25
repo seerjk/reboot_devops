@@ -1,0 +1,643 @@
+2016-05-22 10:17:30,073 - app - views.py- DEBUG - 访问首页
+2016-05-22 10:17:36,144 - app - views.py- DEBUG - 访问首页
+2016-05-22 10:21:45,928 - app - views.py- DEBUG - 访问首页
+2016-05-22 10:21:47,564 - app - views.py- DEBUG - 访问首页
+2016-05-22 10:23:42,934 - app - views.py- DEBUG - 访问首页
+2016-05-22 10:33:30,525 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.test", "auth": null, "id": 0}
+2016-05-22 10:33:48,742 - app - views.py- DEBUG - 用户请求的content_type为：application/jsonaa，不予处理
+2016-05-22 10:43:04,035 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.test", "auth": null, "id": 0}
+2016-05-22 10:43:04,037 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 10:43:04,044 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：reboot
+2016-05-22 10:43:04,045 - app - __init__.py- DEBUG - 加载 reboot 模块
+2016-05-22 10:43:04,069 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 10:43:04,076 - app - __init__.py- DEBUG - 验证模块 reboot 是否存在 test 属性
+2016-05-22 10:43:04,077 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 10:44:06,303 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.test", "auth": null, "id": 0}
+2016-05-22 10:44:06,305 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 10:44:06,311 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：reboot
+2016-05-22 10:44:06,320 - app - __init__.py- DEBUG - 加载 reboot 模块
+2016-05-22 10:44:06,338 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 10:44:06,340 - app - __init__.py- DEBUG - 验证模块 reboot 是否存在 test 属性
+2016-05-22 10:44:06,346 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 10:47:51,737 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.test1", "auth": null, "id": 0}
+2016-05-22 10:47:51,738 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 10:47:51,739 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：reboot
+2016-05-22 10:47:51,745 - app - __init__.py- DEBUG - 加载 reboot 模块
+2016-05-22 10:47:51,768 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 10:47:51,774 - app - __init__.py- DEBUG - 验证模块 reboot 是否存在 test1 属性
+2016-05-22 11:08:52,205 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.test1", "auth": null, "id": 0}
+2016-05-22 11:08:52,206 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:08:52,213 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 11:08:52,215 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：reboot
+2016-05-22 11:08:52,222 - app - __init__.py- DEBUG - 加载 reboot 模块
+2016-05-22 11:08:52,244 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:08:52,246 - app - __init__.py- DEBUG - 验证模块 reboot 是否存在 test1 属性
+2016-05-22 11:08:52,250 - app - __init__.py- WARNING - test1 函数验证失败
+2016-05-22 11:08:52,252 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:08:52,256 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 11:10:11,406 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.test1", "auth": null, "id": 0}
+2016-05-22 11:10:11,407 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:10:11,408 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 11:10:11,415 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：reboot
+2016-05-22 11:10:11,416 - app - __init__.py- DEBUG - 尝试加载 reboot 模块
+2016-05-22 11:10:11,435 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:10:11,441 - app - __init__.py- DEBUG - 验证模块 reboot 是否存在 test1 属性
+2016-05-22 11:10:11,443 - app - __init__.py- WARNING - test1 函数验证失败
+2016-05-22 11:10:11,444 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:10:11,450 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 11:10:41,247 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.test", "auth": null, "id": 0}
+2016-05-22 11:10:41,248 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:10:41,250 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 11:10:41,258 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：reboot
+2016-05-22 11:10:41,259 - app - __init__.py- DEBUG - 尝试加载 reboot 模块
+2016-05-22 11:10:41,285 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:10:41,287 - app - __init__.py- DEBUG - 验证模块 reboot 是否存在 test 属性
+2016-05-22 11:10:41,293 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 11:10:41,294 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:11:04,496 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "rock abcdedf"}, "method": "reboot.", "auth": null, "id": 0}
+2016-05-22 11:11:04,496 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 11:11:04,497 - app - __init__.py- WARNING - method: 'reboot.' 错误，应该为点分割的两个字符串，且不能为空
+2016-05-22 11:13:18,721 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": 1, "method": "reboot.test", "auth": null, "id": 0}
+2016-05-22 11:13:18,722 - app - __init__.py- WARNING - params: 1，错误，必须为字典类型
+2016-05-22 11:13:18,724 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 12:03:10,751 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "reboot.test", "auth": null, "id": 0}
+2016-05-22 12:03:10,752 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:03:10,760 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:03:10,761 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：reboot
+2016-05-22 12:03:10,769 - app - __init__.py- DEBUG - 尝试加载 reboot 模块
+2016-05-22 12:03:10,788 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 12:03:10,788 - app - __init__.py- DEBUG - 验证模块 reboot 是否存在 test 属性
+2016-05-22 12:03:10,797 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:03:10,797 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:03:43,699 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:03:43,700 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:03:43,708 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:03:43,709 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:03:43,718 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:03:43,750 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:03:43,752 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:03:43,759 - app - __init__.py- WARNING - idc.create 改操作需要提供token
+2016-05-22 12:03:43,760 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:03:43,768 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:03:43,770 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 12:04:42,326 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:04:42,327 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:04:42,335 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:04:42,336 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:04:42,344 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:04:42,367 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:04:42,375 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:04:42,376 - app - __init__.py- WARNING - idc.create 改操作需要提供token
+2016-05-22 12:04:42,385 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:04:42,396 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:04:42,404 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 12:05:09,173 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:05:09,175 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:05:09,184 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:05:09,192 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:05:09,193 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:05:09,218 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:05:09,218 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:05:09,227 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:05:09,227 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:14:16,728 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:14:16,728 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:14:16,730 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:14:16,739 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:14:16,740 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:14:16,775 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:14:16,784 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:14:16,786 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:14:16,794 - app - idc.py- WARNING - 参数错误，user_interface 不能为空
+2016-05-22 12:14:16,796 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:17:01,731 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rocker", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:17:01,734 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:17:01,743 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:17:01,744 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:17:01,745 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:17:01,785 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:17:01,785 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:17:01,795 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:17:01,796 - app - idc.py- WARNING - 参数错误，user_interface 不能为空
+2016-05-22 12:17:01,805 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:19:20,746 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:19:20,747 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:19:20,749 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:19:20,757 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:19:20,759 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:19:20,785 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:19:20,795 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:19:20,796 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:19:20,805 - app - idc.py- WARNING - 参数错误，name 不能为空
+2016-05-22 12:19:20,805 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:20:23,696 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:20:23,697 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:20:23,699 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:20:23,705 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:20:23,707 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:20:23,731 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:20:23,732 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:20:23,738 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:20:23,740 - app - idc.py- WARNING - 参数错误，name 不能为空
+2016-05-22 12:20:23,747 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:20:55,882 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"abc": "123"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:20:55,884 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:20:55,892 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:20:55,899 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:20:55,900 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:20:55,925 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:20:55,925 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:20:55,932 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:20:55,934 - app - idc.py- WARNING - 参数错误，abc 不在Idc这张表中
+2016-05-22 12:20:55,939 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:21:45,025 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:21:45,025 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:21:45,035 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:21:45,035 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:21:45,035 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:21:45,060 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:21:45,062 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:21:45,069 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:21:45,071 - app - idc.py- WARNING - 参数错误，name 不能为空
+2016-05-22 12:21:45,079 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:23:49,684 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:23:49,684 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:23:49,685 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:23:49,694 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:23:49,694 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:23:49,713 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:23:49,714 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:23:49,721 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:23:49,723 - app - idc.py- WARNING - 参数错误，user_interface 不能为空
+2016-05-22 12:23:49,724 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:24:14,054 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"name": "yz"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:24:14,055 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:24:14,056 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:24:14,064 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:24:14,065 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:24:14,092 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:24:14,094 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:24:14,101 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:24:14,102 - app - idc.py- WARNING - 参数错误，name 不能为空
+2016-05-22 12:24:14,111 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:24:59,899 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:24:59,901 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:24:59,910 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:24:59,919 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:24:59,921 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:24:59,955 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:24:59,956 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:24:59,966 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:25:00,053 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:26:44,484 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 12:26:44,484 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:26:44,485 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 12:26:44,494 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 12:26:44,494 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 12:26:44,522 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:26:44,531 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 12:26:44,533 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:26:44,541 - app - idc.py- WARNING - 参数错误，phone 不能为空
+2016-05-22 12:26:44,543 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 13:56:59,559 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"user_interface": "rock", "name": "yz", "user_phone": "123321123", "idc_name": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "rel_cabinet_num": 50, "phone": "123456789", "address": "\u5317\u4eac\u4ea6\u5e84\u673a\u623f", "pact_cabinet_num": 60, "email": "rock@51reboot.com"}, "method": "idc.create", "auth": null, "id": 0}
+2016-05-22 13:56:59,559 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 13:56:59,559 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 13:56:59,569 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 13:56:59,569 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 13:56:59,607 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 13:56:59,608 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 13:56:59,619 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 13:56:59,704 - app - idc.py- WARNING - commit error: (_mysql_exceptions.IntegrityError) (1062, "Duplicate entry 'yz' for key 'ix_idc_name'")
+2016-05-22 13:56:59,705 - app - __init__.py- WARNING - 调用模块执行出现错误：commit error
+2016-05-22 13:56:59,714 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 13:56:59,715 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 14:19:42,856 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:19:42,857 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:19:42,858 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:19:42,865 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:19:42,865 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:19:42,905 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:19:42,905 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:19:42,915 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:19:42,999 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:22:24,740 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:22:24,742 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:22:24,751 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:22:24,761 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:22:24,762 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:22:24,791 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:22:24,792 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:22:24,798 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:22:24,895 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:23:23,291 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:23:23,293 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:23:23,302 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:23:23,304 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:23:23,312 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:23:23,353 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:23:23,355 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:23:23,364 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:23:23,458 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:24:21,824 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:24:21,824 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:24:21,824 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:24:21,834 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:24:21,834 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:24:21,864 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:24:21,864 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:24:21,874 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:24:21,949 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:26:21,374 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": "name"}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:26:21,374 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:26:21,384 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:26:21,384 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:26:21,385 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:26:21,425 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:26:21,426 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:26:21,436 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:26:21,438 - app - idc.py- WARNING - output 类型必须为list
+2016-05-22 14:26:21,447 - app - __init__.py- WARNING - 调用模块执行出现错误：output 类型必须为list
+2016-05-22 14:26:21,450 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:26:21,458 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 14:26:55,029 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["name"]}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:26:55,030 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:26:55,031 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:26:55,039 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:26:55,041 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:26:55,065 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:26:55,066 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:26:55,075 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:26:55,174 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:27:13,840 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["name", "abc"]}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:27:13,841 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:27:13,849 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:27:13,850 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:27:13,851 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:27:13,874 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:27:13,875 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:27:13,885 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:27:13,885 - app - idc.py- WARNING - abc这个output输出的字段不存在idc表中
+2016-05-22 14:27:13,895 - app - __init__.py- WARNING - 调用模块执行出现错误：abc这个output输出的字段不存在idc表中
+2016-05-22 14:27:13,895 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:27:13,904 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 14:28:08,907 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": []}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:28:08,908 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:28:08,909 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:28:08,918 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:28:08,919 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:28:08,949 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:28:08,950 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:28:08,959 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:28:08,967 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:39:35,513 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["id", "name", "email"]}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:39:35,514 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:39:35,514 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:39:35,515 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:39:35,524 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:39:35,544 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:39:35,553 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:39:35,555 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:39:35,565 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:46:12,615 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["id", "name", "email"], "order_by": "id aa"}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:46:12,617 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:46:12,625 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:46:12,627 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:46:12,636 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:46:12,656 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:46:12,666 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:46:12,667 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:46:12,676 - app - idc.py- WARNING - order_by 第二个参数不正确，值必须为desc或者asc
+2016-05-22 14:46:12,676 - app - __init__.py- WARNING - 调用模块执行出现错误：order_by 第二个参数不正确，值必须为desc或者asc
+2016-05-22 14:46:12,686 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:46:12,686 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 14:50:35,841 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["id", "name", "email"], "order_by": "id desc"}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:50:35,841 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:50:35,841 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:50:35,849 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:50:35,851 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:50:35,877 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:50:35,878 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:50:35,888 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:50:35,894 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:52:14,210 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["id", "name", "email"], "order_by": "id desc", "limit": 15}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:52:14,212 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:52:14,212 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:52:14,213 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:52:14,224 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:52:14,243 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:52:14,244 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:52:14,254 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:52:14,262 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:53:14,224 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["id", "name", "email"], "where": "id > 2", "limit": 15, "order_by": "id desc"}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 14:53:14,225 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:53:14,227 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 14:53:14,238 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 14:53:14,239 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 14:53:14,267 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:53:14,268 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 14:53:14,277 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:53:14,279 - app - __init__.py- WARNING - 调用模块执行出现错误：filter_by() argument after ** must be a mapping, not unicode
+2016-05-22 14:53:14,288 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:53:14,289 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:09:59,660 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"data": {"rel_cabinet_num": 100}, "where": {"id": 1}}, "method": "idc.update", "auth": null, "id": 1}
+2016-05-22 15:09:59,661 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:09:59,669 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:09:59,671 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:09:59,679 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:09:59,709 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:09:59,718 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 15:09:59,720 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:09:59,728 - app - __init__.py- WARNING - 调用模块执行出现错误：int() argument must be a string or a number, not 'builtin_function_or_method'
+2016-05-22 15:09:59,729 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:09:59,737 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:11:39,521 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"data": {"rel_cabinet_num": 100}, "where": {"id": 1}}, "method": "idc.update", "auth": null, "id": 1}
+2016-05-22 15:11:39,522 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:11:39,523 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:11:39,532 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:11:39,534 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:11:39,561 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:11:39,563 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 15:11:39,570 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:11:39,572 - app - __init__.py- WARNING - 调用模块执行出现错误：int() argument must be a string or a number, not 'builtin_function_or_method'
+2016-05-22 15:11:39,581 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:11:39,582 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:12:20,712 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"data": {"rel_cabinet_num": 100}, "where": {"id": "1"}}, "method": "idc.update", "auth": null, "id": 0}
+2016-05-22 15:12:20,714 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:12:20,724 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:12:20,725 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:12:20,725 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:12:20,751 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:12:20,761 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 15:12:20,763 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:12:20,764 - app - __init__.py- WARNING - 调用模块执行出现错误：int() argument must be a string or a number, not 'builtin_function_or_method'
+2016-05-22 15:12:20,773 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:12:20,773 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:12:56,966 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"data": {"rel_cabinet_num": 100}, "where": {"id": "1"}}, "method": "idc.update", "auth": null, "id": 0}
+2016-05-22 15:12:56,967 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:12:56,977 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:12:56,986 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:12:56,987 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:12:57,026 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:12:57,027 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 15:12:57,037 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:12:57,088 - app - __init__.py- WARNING - 调用模块执行出现错误：update() got an unexpected keyword argument 'rel_cabinet_num'
+2016-05-22 15:12:57,089 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:12:57,098 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:15:56,410 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"data": {"rel_cabinet_num": 100}, "where": {"id": "1"}}, "method": "idc.update", "auth": null, "id": 0}
+2016-05-22 15:15:56,412 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:15:56,421 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:15:56,422 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:15:56,431 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:15:56,469 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:15:56,470 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 15:15:56,479 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:15:56,564 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:26:11,704 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["id", "name", "email", "rel_cabinet_num"], "order_by": "id desc", "limit": 15}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 15:26:11,705 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:26:11,706 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:26:11,715 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:26:11,718 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:26:11,745 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:26:11,746 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 15:26:11,755 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:26:11,757 - app - __init__.py- WARNING - 调用模块执行出现错误：SQL expression object or string expected, got object of type <type 'instancemethod'> instead
+2016-05-22 15:26:11,766 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:26:11,775 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:26:55,404 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 1}
+2016-05-22 15:26:55,404 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:26:55,414 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:26:55,415 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:26:55,425 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:26:55,456 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:26:55,458 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 15:26:55,470 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:26:55,473 - app - __init__.py- WARNING - 调用模块执行出现错误：SQL expression object or string expected, got object of type <type 'instancemethod'> instead
+2016-05-22 15:26:55,483 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:26:55,484 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:28:33,078 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 0}
+2016-05-22 15:28:33,079 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:28:33,091 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:28:33,102 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:28:33,104 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:28:33,130 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:28:33,132 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 15:28:33,141 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:28:33,144 - app - __init__.py- WARNING - 调用模块执行出现错误：SQL expression object or string expected, got object of type <type 'instancemethod'> instead
+2016-05-22 15:28:33,153 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:28:33,154 - app - __init__.py- WARNING - 处理错误信息
+2016-05-22 15:30:33,994 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 0}
+2016-05-22 15:30:33,995 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:30:33,997 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:30:34,010 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:30:34,011 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:30:34,054 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:30:34,069 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 15:30:34,072 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:30:34,177 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:30:36,814 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {}, "method": "idc.get", "auth": null, "id": 0}
+2016-05-22 15:30:36,815 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:30:36,816 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:30:36,827 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:30:36,828 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:30:36,863 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:30:36,864 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 15:30:36,874 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:30:36,884 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:31:20,546 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"output": ["id", "name", "email", "rel_cabinet_num"], "order_by": "id desc", "limit": 15}, "method": "idc.get", "auth": null, "id": 0}
+2016-05-22 15:31:20,547 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:31:20,562 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:31:20,574 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:31:20,574 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:31:20,614 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:31:20,614 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 15:31:20,624 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:31:20,704 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:31:51,445 - app - views.py- DEBUG - 请求的json数据为：{"jsonrpc": 2.0, "params": {"data": {"rel_cabinet_num": 200}, "where": {"id": "1"}}, "method": "idc.update", "auth": null, "id": 0}
+2016-05-22 15:31:51,446 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:31:51,447 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 15:31:51,455 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 15:31:51,456 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 15:31:51,486 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:31:51,487 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 15:31:51,495 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:31:51,504 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 16:20:33,982 - app - __init__.py- WARNING - method传值错误：need more than 1 value to unpack
+2016-05-22 16:23:15,048 - app - __init__.py- WARNING - method传值错误：need more than 1 value to unpack
+2016-05-22 16:23:18,002 - app - views.py- DEBUG - 访问首页
+2016-05-22 16:23:25,233 - app - __init__.py- WARNING - method传值错误：need more than 1 value to unpack
+2016-05-22 16:28:36,662 - app - __init__.py- WARNING - method传值错误：need more than 1 value to unpack
+2016-05-22 16:28:36,864 - app - __init__.py- WARNING - method传值错误：need more than 1 value to unpack
+2016-05-22 16:29:24,653 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:29:24,655 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:29:24,664 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:29:24,695 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:29:24,695 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:29:24,705 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:29:31,370 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:29:31,371 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:29:31,372 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:29:31,399 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:29:31,401 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:29:31,409 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:29:43,234 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:29:43,234 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:29:43,244 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:29:43,274 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:29:43,274 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 16:29:43,284 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:29:44,959 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:29:44,960 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:29:44,970 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:29:44,991 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:29:44,992 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:29:45,001 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:33:14,160 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:33:14,161 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:33:14,162 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:33:14,194 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:33:14,194 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:33:14,204 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:33:23,979 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:33:23,980 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:33:23,981 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:33:24,008 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:33:24,009 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 16:33:24,018 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:33:26,250 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:33:26,252 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:33:26,261 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:33:26,288 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:33:26,289 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:33:26,298 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:36:28,880 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:36:28,882 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:36:28,893 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:36:28,916 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:36:28,917 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:36:28,929 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:36:34,471 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:36:34,473 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:36:34,484 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:36:34,513 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:36:34,514 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 16:36:34,524 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:36:47,097 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:36:47,098 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:36:47,099 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:36:47,133 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:36:47,133 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:36:47,143 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:41:45,815 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:41:45,817 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:41:45,827 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:41:45,848 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:41:45,849 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:41:45,859 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:41:54,552 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:41:54,552 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:41:54,565 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:41:54,599 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:41:54,601 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:41:54,610 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:41:56,935 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:41:56,936 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:41:56,938 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:41:56,965 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:41:56,976 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:41:56,978 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:56:25,987 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:56:25,990 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:56:25,990 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:56:26,020 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:56:26,031 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 16:56:26,033 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:56:28,762 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 16:56:28,763 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 16:56:28,773 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 16:56:28,791 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:56:28,792 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 16:56:28,801 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:14:05,358 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:14:05,358 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:14:05,369 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:14:05,401 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:14:05,403 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:14:05,416 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:14:13,195 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:14:13,197 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:14:13,207 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:14:13,227 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:14:13,228 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:14:13,238 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:14:15,827 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:14:15,828 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:14:15,828 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:14:15,857 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:14:15,868 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 18:14:15,868 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:14:19,039 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:14:19,040 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:14:19,040 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:14:19,071 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:14:19,081 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:14:19,083 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:16:16,003 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:16:16,004 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:16:16,005 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:16:16,035 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:16:16,036 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:16:16,045 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:16:21,185 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:16:21,186 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:16:21,188 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:16:21,218 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:16:21,228 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:16:21,228 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:26:40,179 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:26:40,181 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:26:40,191 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:26:40,223 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:26:40,225 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:26:40,235 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:26:42,438 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:26:42,439 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:26:42,448 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:26:42,476 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:26:42,476 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:26:42,486 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:27:15,649 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:27:15,651 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:27:15,662 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:27:15,692 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:27:15,693 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 create 属性
+2016-05-22 18:27:15,703 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:27:31,487 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:27:31,487 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:27:31,488 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:27:31,516 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:27:31,516 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:27:31,526 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:36:04,745 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:36:04,746 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:36:04,758 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:36:04,778 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:36:04,780 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:36:04,790 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:36:12,469 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:36:12,471 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:36:12,483 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:36:12,505 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:36:12,505 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:36:12,515 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:36:22,249 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:36:22,250 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:36:22,251 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:36:22,282 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:36:22,285 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 update 属性
+2016-05-22 18:36:22,294 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:36:24,455 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/03/reboot-website/app/modules
+2016-05-22 18:36:24,455 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-05-22 18:36:24,467 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-05-22 18:36:24,500 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:36:24,514 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-05-22 18:36:24,515 - app - __init__.py- DEBUG - 获取可执行的函数
