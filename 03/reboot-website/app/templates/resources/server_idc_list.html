@@ -47,7 +47,7 @@
                 <td>{{ idc.pact_cabinet_num }}</td>
                 <td>
                     <a href="/resources/idc/modify/{{ idc.id }}" class="btn btn-primary btn_mod">修改</a>
-                    <a href="{{ idc.id }}" class="btn btn-danger btn_mod">删除</a>
+                    <a href="{{ idc.id }}" class="btn btn-danger btn_mod btn_delete">删除</a>
                 </td>
             </tr>
         {% endfor %}
@@ -56,10 +56,10 @@
 
 {% block js %}
     <script>
-        $(".btn_delete").click(function () {
+        $(".btn_delete").click(function (){
             swal({
                 title: "确定要删除吗？",
-                text: "You will not be able to recover this imaginary file!",
+                text: "即将删除这条IDC信息",
                 type: "warning",
                 showCancelButton: true,
                 confirmButtonColor: "#DD6B55",
