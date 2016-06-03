@@ -2625,3 +2625,311 @@
 2016-05-29 19:07:49,890 - app - __init__.py- DEBUG - 加载 supplier 模块成功
 2016-05-29 19:07:49,892 - app - __init__.py- DEBUG - 验证模块 supplier 是否存在 get 属性
 2016-05-29 19:07:49,903 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:21,589 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:21,592 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：manufacturers
+2016-06-02 22:02:21,592 - app - __init__.py- DEBUG - 尝试加载 manufacturers 模块
+2016-06-02 22:02:21,680 - app - __init__.py- DEBUG - 加载 manufacturers 模块成功
+2016-06-02 22:02:21,691 - app - __init__.py- DEBUG - 验证模块 manufacturers 是否存在 get 属性
+2016-06-02 22:02:21,693 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:21,791 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:21,792 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：product
+2016-06-02 22:02:21,806 - app - __init__.py- DEBUG - 尝试加载 product 模块
+2016-06-02 22:02:21,841 - app - __init__.py- DEBUG - 加载 product 模块成功
+2016-06-02 22:02:21,842 - app - __init__.py- DEBUG - 验证模块 product 是否存在 get 属性
+2016-06-02 22:02:21,852 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:21,865 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:21,867 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：status
+2016-06-02 22:02:21,869 - app - __init__.py- DEBUG - 尝试加载 status 模块
+2016-06-02 22:02:21,930 - app - __init__.py- DEBUG - 加载 status 模块成功
+2016-06-02 22:02:21,942 - app - __init__.py- DEBUG - 验证模块 status 是否存在 get 属性
+2016-06-02 22:02:21,944 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:21,961 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:21,968 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-06-02 22:02:21,969 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-06-02 22:02:22,010 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-06-02 22:02:22,011 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-06-02 22:02:22,022 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:22,032 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:22,037 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：power
+2016-06-02 22:02:22,039 - app - __init__.py- DEBUG - 尝试加载 power 模块
+2016-06-02 22:02:22,083 - app - __init__.py- DEBUG - 加载 power 模块成功
+2016-06-02 22:02:22,096 - app - __init__.py- DEBUG - 验证模块 power 是否存在 get 属性
+2016-06-02 22:02:22,098 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:22,115 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:22,122 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：raid
+2016-06-02 22:02:22,124 - app - __init__.py- DEBUG - 尝试加载 raid 模块
+2016-06-02 22:02:22,168 - app - __init__.py- DEBUG - 加载 raid 模块成功
+2016-06-02 22:02:22,181 - app - __init__.py- DEBUG - 验证模块 raid 是否存在 get 属性
+2016-06-02 22:02:22,183 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:22,201 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:22,207 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：raidtype
+2016-06-02 22:02:22,208 - app - __init__.py- DEBUG - 尝试加载 raidtype 模块
+2016-06-02 22:02:22,250 - app - __init__.py- DEBUG - 加载 raidtype 模块成功
+2016-06-02 22:02:22,251 - app - __init__.py- DEBUG - 验证模块 raidtype 是否存在 get 属性
+2016-06-02 22:02:22,263 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:22,270 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:22,276 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：managementcard
+2016-06-02 22:02:22,277 - app - __init__.py- DEBUG - 尝试加载 managementcard 模块
+2016-06-02 22:02:22,326 - app - __init__.py- DEBUG - 加载 managementcard 模块成功
+2016-06-02 22:02:22,327 - app - __init__.py- DEBUG - 验证模块 managementcard 是否存在 get 属性
+2016-06-02 22:02:22,338 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:22,346 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:22,351 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：supplier
+2016-06-02 22:02:22,352 - app - __init__.py- DEBUG - 尝试加载 supplier 模块
+2016-06-02 22:02:22,400 - app - __init__.py- DEBUG - 加载 supplier 模块成功
+2016-06-02 22:02:22,415 - app - __init__.py- DEBUG - 验证模块 supplier 是否存在 get 属性
+2016-06-02 22:02:22,417 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:44,504 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:44,505 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：servertype
+2016-06-02 22:02:44,506 - app - __init__.py- DEBUG - 尝试加载 servertype 模块
+2016-06-02 22:02:44,569 - app - __init__.py- DEBUG - 加载 servertype 模块成功
+2016-06-02 22:02:44,570 - app - __init__.py- DEBUG - 验证模块 servertype 是否存在 get 属性
+2016-06-02 22:02:44,582 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:50,276 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:50,276 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：product
+2016-06-02 22:02:50,277 - app - __init__.py- DEBUG - 尝试加载 product 模块
+2016-06-02 22:02:50,315 - app - __init__.py- DEBUG - 加载 product 模块成功
+2016-06-02 22:02:50,328 - app - __init__.py- DEBUG - 验证模块 product 是否存在 get 属性
+2016-06-02 22:02:50,332 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:02:59,158 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:02:59,159 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：cabinet
+2016-06-02 22:02:59,160 - app - __init__.py- DEBUG - 尝试加载 cabinet 模块
+2016-06-02 22:02:59,251 - app - __init__.py- DEBUG - 加载 cabinet 模块成功
+2016-06-02 22:02:59,252 - app - __init__.py- DEBUG - 验证模块 cabinet 是否存在 get 属性
+2016-06-02 22:02:59,263 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:03:02,831 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:03:02,831 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-06-02 22:03:02,843 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-06-02 22:03:02,877 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-06-02 22:03:02,878 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-06-02 22:03:02,888 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:03:02,897 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:03:02,903 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：power
+2016-06-02 22:03:02,904 - app - __init__.py- DEBUG - 尝试加载 power 模块
+2016-06-02 22:03:02,937 - app - __init__.py- DEBUG - 加载 power 模块成功
+2016-06-02 22:03:02,950 - app - __init__.py- DEBUG - 验证模块 power 是否存在 get 属性
+2016-06-02 22:03:02,951 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:03:09,349 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:03:09,350 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：cabinet
+2016-06-02 22:03:09,363 - app - __init__.py- DEBUG - 尝试加载 cabinet 模块
+2016-06-02 22:03:09,392 - app - __init__.py- DEBUG - 加载 cabinet 模块成功
+2016-06-02 22:03:09,405 - app - __init__.py- DEBUG - 验证模块 cabinet 是否存在 create 属性
+2016-06-02 22:03:09,406 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:03:14,878 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:03:14,879 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-06-02 22:03:14,896 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-06-02 22:03:14,930 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-06-02 22:03:14,942 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-06-02 22:03:14,945 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:03:14,965 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:03:14,970 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：power
+2016-06-02 22:03:14,972 - app - __init__.py- DEBUG - 尝试加载 power 模块
+2016-06-02 22:03:15,011 - app - __init__.py- DEBUG - 加载 power 模块成功
+2016-06-02 22:03:15,025 - app - __init__.py- DEBUG - 验证模块 power 是否存在 get 属性
+2016-06-02 22:03:15,027 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:03:20,738 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:03:20,738 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：cabinet
+2016-06-02 22:03:20,750 - app - __init__.py- DEBUG - 尝试加载 cabinet 模块
+2016-06-02 22:03:20,778 - app - __init__.py- DEBUG - 加载 cabinet 模块成功
+2016-06-02 22:03:20,791 - app - __init__.py- DEBUG - 验证模块 cabinet 是否存在 get 属性
+2016-06-02 22:03:20,791 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:03:22,171 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:03:22,172 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：cabinet
+2016-06-02 22:03:22,187 - app - __init__.py- DEBUG - 尝试加载 cabinet 模块
+2016-06-02 22:03:22,222 - app - __init__.py- DEBUG - 加载 cabinet 模块成功
+2016-06-02 22:03:22,223 - app - __init__.py- DEBUG - 验证模块 cabinet 是否存在 get 属性
+2016-06-02 22:03:22,234 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:28,851 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:28,851 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：server
+2016-06-02 22:04:28,852 - app - __init__.py- DEBUG - 尝试加载 server 模块
+2016-06-02 22:04:28,930 - app - __init__.py- DEBUG - 加载 server 模块成功
+2016-06-02 22:04:28,944 - app - __init__.py- DEBUG - 验证模块 server 是否存在 create 属性
+2016-06-02 22:04:28,945 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:28,959 - app - __init__.py- WARNING - 参数错误，remark 不能为空
+2016-06-02 22:04:28,961 - app - __init__.py- WARNING - Web 调用模块 server.server.create 执行中出错：remark 不能为空
+2016-06-02 22:04:30,762 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:30,762 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：manufacturers
+2016-06-02 22:04:30,763 - app - __init__.py- DEBUG - 尝试加载 manufacturers 模块
+2016-06-02 22:04:30,800 - app - __init__.py- DEBUG - 加载 manufacturers 模块成功
+2016-06-02 22:04:30,810 - app - __init__.py- DEBUG - 验证模块 manufacturers 是否存在 get 属性
+2016-06-02 22:04:30,810 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:30,815 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:30,825 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：product
+2016-06-02 22:04:30,826 - app - __init__.py- DEBUG - 尝试加载 product 模块
+2016-06-02 22:04:30,860 - app - __init__.py- DEBUG - 加载 product 模块成功
+2016-06-02 22:04:30,861 - app - __init__.py- DEBUG - 验证模块 product 是否存在 get 属性
+2016-06-02 22:04:30,871 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:30,879 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:30,887 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：status
+2016-06-02 22:04:30,889 - app - __init__.py- DEBUG - 尝试加载 status 模块
+2016-06-02 22:04:30,921 - app - __init__.py- DEBUG - 加载 status 模块成功
+2016-06-02 22:04:30,933 - app - __init__.py- DEBUG - 验证模块 status 是否存在 get 属性
+2016-06-02 22:04:30,935 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:30,952 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:30,959 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-06-02 22:04:30,959 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-06-02 22:04:30,991 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-06-02 22:04:30,993 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-06-02 22:04:31,002 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:31,010 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:31,016 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：power
+2016-06-02 22:04:31,017 - app - __init__.py- DEBUG - 尝试加载 power 模块
+2016-06-02 22:04:31,048 - app - __init__.py- DEBUG - 加载 power 模块成功
+2016-06-02 22:04:31,048 - app - __init__.py- DEBUG - 验证模块 power 是否存在 get 属性
+2016-06-02 22:04:31,059 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:31,065 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:31,074 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：raid
+2016-06-02 22:04:31,076 - app - __init__.py- DEBUG - 尝试加载 raid 模块
+2016-06-02 22:04:31,109 - app - __init__.py- DEBUG - 加载 raid 模块成功
+2016-06-02 22:04:31,122 - app - __init__.py- DEBUG - 验证模块 raid 是否存在 get 属性
+2016-06-02 22:04:31,123 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:31,130 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:31,136 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：raidtype
+2016-06-02 22:04:31,149 - app - __init__.py- DEBUG - 尝试加载 raidtype 模块
+2016-06-02 22:04:31,182 - app - __init__.py- DEBUG - 加载 raidtype 模块成功
+2016-06-02 22:04:31,183 - app - __init__.py- DEBUG - 验证模块 raidtype 是否存在 get 属性
+2016-06-02 22:04:31,194 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:31,214 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:31,222 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：managementcard
+2016-06-02 22:04:31,223 - app - __init__.py- DEBUG - 尝试加载 managementcard 模块
+2016-06-02 22:04:31,257 - app - __init__.py- DEBUG - 加载 managementcard 模块成功
+2016-06-02 22:04:31,257 - app - __init__.py- DEBUG - 验证模块 managementcard 是否存在 get 属性
+2016-06-02 22:04:31,270 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:04:31,277 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:04:31,284 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：supplier
+2016-06-02 22:04:31,285 - app - __init__.py- DEBUG - 尝试加载 supplier 模块
+2016-06-02 22:04:31,318 - app - __init__.py- DEBUG - 加载 supplier 模块成功
+2016-06-02 22:04:31,318 - app - __init__.py- DEBUG - 验证模块 supplier 是否存在 get 属性
+2016-06-02 22:04:31,330 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:05:36,066 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:05:36,067 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：servertype
+2016-06-02 22:05:36,068 - app - __init__.py- DEBUG - 尝试加载 servertype 模块
+2016-06-02 22:05:36,107 - app - __init__.py- DEBUG - 加载 servertype 模块成功
+2016-06-02 22:05:36,108 - app - __init__.py- DEBUG - 验证模块 servertype 是否存在 get 属性
+2016-06-02 22:05:36,118 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:05:38,651 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:05:38,659 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：servertype
+2016-06-02 22:05:38,666 - app - __init__.py- DEBUG - 尝试加载 servertype 模块
+2016-06-02 22:05:38,690 - app - __init__.py- DEBUG - 加载 servertype 模块成功
+2016-06-02 22:05:38,691 - app - __init__.py- DEBUG - 验证模块 servertype 是否存在 get 属性
+2016-06-02 22:05:38,706 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:05:44,743 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:05:44,744 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：product
+2016-06-02 22:05:44,758 - app - __init__.py- DEBUG - 尝试加载 product 模块
+2016-06-02 22:05:44,793 - app - __init__.py- DEBUG - 加载 product 模块成功
+2016-06-02 22:05:44,794 - app - __init__.py- DEBUG - 验证模块 product 是否存在 get 属性
+2016-06-02 22:05:44,807 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:05:51,584 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:05:51,584 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：product
+2016-06-02 22:05:51,585 - app - __init__.py- DEBUG - 尝试加载 product 模块
+2016-06-02 22:05:51,620 - app - __init__.py- DEBUG - 加载 product 模块成功
+2016-06-02 22:05:51,622 - app - __init__.py- DEBUG - 验证模块 product 是否存在 get 属性
+2016-06-02 22:05:51,634 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:05:54,482 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:05:54,483 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：product
+2016-06-02 22:05:54,499 - app - __init__.py- DEBUG - 尝试加载 product 模块
+2016-06-02 22:05:54,531 - app - __init__.py- DEBUG - 加载 product 模块成功
+2016-06-02 22:05:54,541 - app - __init__.py- DEBUG - 验证模块 product 是否存在 get 属性
+2016-06-02 22:05:54,542 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:03,848 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:03,849 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：cabinet
+2016-06-02 22:06:03,869 - app - __init__.py- DEBUG - 尝试加载 cabinet 模块
+2016-06-02 22:06:03,893 - app - __init__.py- DEBUG - 加载 cabinet 模块成功
+2016-06-02 22:06:03,894 - app - __init__.py- DEBUG - 验证模块 cabinet 是否存在 get 属性
+2016-06-02 22:06:03,905 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:05,472 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:05,472 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：cabinet
+2016-06-02 22:06:05,486 - app - __init__.py- DEBUG - 尝试加载 cabinet 模块
+2016-06-02 22:06:05,512 - app - __init__.py- DEBUG - 加载 cabinet 模块成功
+2016-06-02 22:06:05,514 - app - __init__.py- DEBUG - 验证模块 cabinet 是否存在 get 属性
+2016-06-02 22:06:05,526 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:29,903 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:29,905 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：server
+2016-06-02 22:06:29,907 - app - __init__.py- DEBUG - 尝试加载 server 模块
+2016-06-02 22:06:29,943 - app - __init__.py- DEBUG - 加载 server 模块成功
+2016-06-02 22:06:29,944 - app - __init__.py- DEBUG - 验证模块 server 是否存在 create 属性
+2016-06-02 22:06:29,956 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,483 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,484 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：manufacturers
+2016-06-02 22:06:32,498 - app - __init__.py- DEBUG - 尝试加载 manufacturers 模块
+2016-06-02 22:06:32,530 - app - __init__.py- DEBUG - 加载 manufacturers 模块成功
+2016-06-02 22:06:32,531 - app - __init__.py- DEBUG - 验证模块 manufacturers 是否存在 get 属性
+2016-06-02 22:06:32,543 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,551 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,556 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：product
+2016-06-02 22:06:32,557 - app - __init__.py- DEBUG - 尝试加载 product 模块
+2016-06-02 22:06:32,590 - app - __init__.py- DEBUG - 加载 product 模块成功
+2016-06-02 22:06:32,591 - app - __init__.py- DEBUG - 验证模块 product 是否存在 get 属性
+2016-06-02 22:06:32,603 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,611 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,616 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：status
+2016-06-02 22:06:32,618 - app - __init__.py- DEBUG - 尝试加载 status 模块
+2016-06-02 22:06:32,653 - app - __init__.py- DEBUG - 加载 status 模块成功
+2016-06-02 22:06:32,654 - app - __init__.py- DEBUG - 验证模块 status 是否存在 get 属性
+2016-06-02 22:06:32,665 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,672 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,679 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：idc
+2016-06-02 22:06:32,679 - app - __init__.py- DEBUG - 尝试加载 idc 模块
+2016-06-02 22:06:32,711 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-06-02 22:06:32,712 - app - __init__.py- DEBUG - 验证模块 idc 是否存在 get 属性
+2016-06-02 22:06:32,724 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,733 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,738 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：power
+2016-06-02 22:06:32,750 - app - __init__.py- DEBUG - 尝试加载 power 模块
+2016-06-02 22:06:32,781 - app - __init__.py- DEBUG - 加载 power 模块成功
+2016-06-02 22:06:32,782 - app - __init__.py- DEBUG - 验证模块 power 是否存在 get 属性
+2016-06-02 22:06:32,795 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,802 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,808 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：raid
+2016-06-02 22:06:32,809 - app - __init__.py- DEBUG - 尝试加载 raid 模块
+2016-06-02 22:06:32,841 - app - __init__.py- DEBUG - 加载 raid 模块成功
+2016-06-02 22:06:32,841 - app - __init__.py- DEBUG - 验证模块 raid 是否存在 get 属性
+2016-06-02 22:06:32,854 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,863 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,869 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：raidtype
+2016-06-02 22:06:32,880 - app - __init__.py- DEBUG - 尝试加载 raidtype 模块
+2016-06-02 22:06:32,901 - app - __init__.py- DEBUG - 加载 raidtype 模块成功
+2016-06-02 22:06:32,902 - app - __init__.py- DEBUG - 验证模块 raidtype 是否存在 get 属性
+2016-06-02 22:06:32,915 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,922 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:32,928 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：managementcard
+2016-06-02 22:06:32,929 - app - __init__.py- DEBUG - 尝试加载 managementcard 模块
+2016-06-02 22:06:32,960 - app - __init__.py- DEBUG - 加载 managementcard 模块成功
+2016-06-02 22:06:32,974 - app - __init__.py- DEBUG - 验证模块 managementcard 是否存在 get 属性
+2016-06-02 22:06:32,975 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:32,994 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:33,001 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：supplier
+2016-06-02 22:06:33,002 - app - __init__.py- DEBUG - 尝试加载 supplier 模块
+2016-06-02 22:06:33,035 - app - __init__.py- DEBUG - 加载 supplier 模块成功
+2016-06-02 22:06:33,036 - app - __init__.py- DEBUG - 验证模块 supplier 是否存在 get 属性
+2016-06-02 22:06:33,048 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-02 22:06:39,546 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-02 22:06:39,547 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：server
+2016-06-02 22:06:39,548 - app - __init__.py- DEBUG - 尝试加载 server 模块
+2016-06-02 22:06:39,872 - app - __init__.py- DEBUG - 加载 server 模块成功
+2016-06-02 22:06:39,884 - app - __init__.py- DEBUG - 验证模块 server 是否存在 get 属性
+2016-06-02 22:06:39,886 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-03 00:23:30,062 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-03 00:23:30,066 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：server
+2016-06-03 00:23:30,077 - app - __init__.py- DEBUG - 尝试加载 server 模块
+2016-06-03 00:23:30,101 - app - __init__.py- DEBUG - 加载 server 模块成功
+2016-06-03 00:23:30,101 - app - __init__.py- DEBUG - 验证模块 server 是否存在 get 属性
+2016-06-03 00:23:30,113 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-03 00:23:34,292 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-03 00:23:34,293 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：server
+2016-06-03 00:23:34,304 - app - __init__.py- DEBUG - 尝试加载 server 模块
+2016-06-03 00:23:34,329 - app - __init__.py- DEBUG - 加载 server 模块成功
+2016-06-03 00:23:34,330 - app - __init__.py- DEBUG - 验证模块 server 是否存在 get 属性
+2016-06-03 00:23:34,341 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-03 00:25:40,088 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-03 00:25:40,090 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：server
+2016-06-03 00:25:40,090 - app - __init__.py- DEBUG - 尝试加载 server 模块
+2016-06-03 00:25:40,122 - app - __init__.py- DEBUG - 加载 server 模块成功
+2016-06-03 00:25:40,124 - app - __init__.py- DEBUG - 验证模块 server 是否存在 get 属性
+2016-06-03 00:25:40,134 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-06-03 00:25:42,545 - app - __init__.py- DEBUG - 自动加载模块的目录为：/vagrant/reboot_devops/04/reboot-website/app/modules
+2016-06-03 00:25:42,547 - app - __init__.py- DEBUG - 验证模块是否可用，模块名为：server
+2016-06-03 00:25:42,556 - app - __init__.py- DEBUG - 尝试加载 server 模块
+2016-06-03 00:25:42,587 - app - __init__.py- DEBUG - 加载 server 模块成功
+2016-06-03 00:25:42,588 - app - __init__.py- DEBUG - 验证模块 server 是否存在 get 属性
+2016-06-03 00:25:42,597 - app - __init__.py- DEBUG - 获取可执行的函数

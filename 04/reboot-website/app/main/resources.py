@@ -192,7 +192,17 @@ def resources_server_doadd():
 修改服务器信息
 /resources/server/modify/1
 """
-
+@main.route("/resources/server/modify/<server_id>")
+def resources_server_modify(server_id):
+    print "server id: {}".format(server_id)
+    server = app.utils.api_action("server.get",
+                                  {
+                                      "where": {"id": server_id}
+                                  })
+    print server
+    return render_template("resources/server_modify.html",
+                           title="修改服务器",
+                           server=server)
 
 """
 添加制造商
