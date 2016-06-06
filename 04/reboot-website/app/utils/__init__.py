@@ -69,7 +69,7 @@ def api_action_diff_host(method="", params=""):
     print r.content
 
 
-def check_field_exists(obj, data):
+def check_field_exists(obj, data, field_none=[]):
     for field in data.keys():
         # 2.1 验证参数是否在idc表中
         if not hasattr(obj, field):
@@ -78,13 +78,19 @@ def check_field_exists(obj, data):
                 "参数错误，{} 不在这张表中".format(field)
             )
             raise Exception("params error: {}".format(field))
-        # 2.2 不能为空
+        # 2.2 field为空处理
         if not data.get(field, None):
-            # logging
-            current_app.logger.warning(
-                "参数错误，{} 不能为空".format(field)
-            )
-            raise Exception("{} 不能为空".format(field))
+            # field 可以为空
+            if field_none == False:
+                continue
+
+            # 不能为空的field 抛出异常
+            if field not in field_none:
+                # logging
+                current_app.logger.warning(
+                    "参数错误，{} 不能为空".format(field)
+                )
+                raise Exception("{} 不能为空".format(field))
 
 
 def check_output_field(obj, output):
@@ -181,4 +187,14 @@ def jump(ret, success_url="/", error_url="/"):
         return render_template(success, next_url=success_url)
     else:
         return render_template(error, next_url=error_url)
+
+
+def list_to_dict(obj_list, key, value):
+    ret = {}
+    for obj in obj_list:
+        try:
+            ret[obj[key]] = obj[value]
+        except:
+            pass
+    return ret
 

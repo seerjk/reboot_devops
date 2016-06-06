@@ -12,7 +12,6 @@
         #host_list{ height: 250px; overflow-y: scroll;border:1px solid #ccc; width:220px;padding-left:10px;float:left;margin-right:20px;}
         .modal-body{min-height: 280px;}
         #zabbix_group{width:200px;}
-        .btn_mod{font-size: 12px;padding:2px 6px;}
     </style>
 {% endblock %}
 
@@ -31,6 +30,8 @@
       <thead>
         <tr>
           <th>#</th>
+          <th>主机名</th>
+          <th>内网IP</th>
           <th>供应商</th>
           <th>制造商</th>
           <th>出厂日期</th>
@@ -50,8 +51,8 @@
 
           <th>机器上架日期</th>
           <th>操作系统</th>
-          <th>主机名</th>
-          <th>内网IP</th>
+
+
 
           <th>MAC地址</th>
           <th>IP信息</th>
@@ -85,6 +86,8 @@
             {% for server in servers %}
                 <tr>
                 <td> {{ loop.index }} </td>
+                <td> {{ server.hostname }} </td>
+                <td> {{ server.inner_ip }} </td>
                 <td> {{ server.supplier }} </td>
                 <td> {{ server.manufacturers }} </td>
                 <td> {{ server.manufacture_date }} </td>
@@ -104,10 +107,10 @@
 
                 <td> {{ server.server_up_time }} </td>
                 <td> {{ server.os }} </td>
-                <td> {{ server.hostname }} </td>
-                <td> {{ server.inner_ip }} </td>
 
-                <td> {{ server.mac }} </td>
+
+
+                <td> {{ server.mac_address }} </td>
                 <td> {{ server.ipinfo }} </td>
                 <td> {{ server.server_cpu }} </td>
                 <td> {{ server.server_disk }} </td>
@@ -117,13 +120,13 @@
                 <td> {{ server.raid_card_type }} </td>
                 <td> {{ server.remote_card }} </td>
                 <td> {{ server.remote_cardip }} </td>
-                <td> {{ server.status }} </td>
+                <td> {{ status[server.status] }} </td>
 
                 <td> {{ server.remark }} </td>
                 <td> {{ server.last_op_time }} </td>
                 <td> {{ server.last_op_people }} </td>
-                <td> {{ server.service_id }} </td>
-                <td> {{ server.server_purpose }} </td>
+                <td> {{ products[server.service_id] }} </td>
+                <td> {{ products[server.server_purpose] }} </td>
 
                 <td> {{ server.trouble_resolve }} </td>
                 <td> {{ server.appop_interface_other }} </td>
@@ -131,8 +134,7 @@
                 <td> {{ server.check_update_time }} </td>
                 <td> {{ server.power }} </td>
                 <td>
-                     <a href="/resources/server/modify/{{ server.id }}" class="btn btn-primary btn_mod">修改</a>
-
+                     <a href="/resources/server/modify/{{ server.id }}" class="btn btn-primary btn-sm btn_mod">修改</a>
                 </td>
                 </tr>
             {% endfor %}

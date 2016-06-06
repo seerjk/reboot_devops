@@ -8,6 +8,8 @@ from . import main
 import app.utils
 import json
 from app.utils import jump
+# import datetime
+from time import gmtime, strftime
 
 """
 IDC 列表页面
@@ -120,18 +122,32 @@ def resources_delete_idc():
     return str(ret)
 
 """
-服务器列表页面
+    服务器列表页面
 """
 @main.route("/resources/server/list/", methods=["GET"])
 def resources_server_list():
-    # 获取server信息
+    # 获取业务信息
+    services = app.utils.api_action("product.get", {"output": ["module_letter", "id"]})
+    products = app.utils.list_to_dict(services, "id", "module_letter")
+
+    # 获取状态信息
+    statuses = app.utils.api_action('status.get', {"output": ["id", "name"]})
+    status = app.utils.list_to_dict(statuses, "id", "name")
+
+    # 获取server服务器信息
     servers = app.utils.api_action("server.get")
+
     return render_template("resources/server_list.html",
                            title="服务器信息",
-                           servers=servers)
+                           show_resource=True,
+                           show_server_list=True,
+                           servers=servers,
+                           products=products,
+                           status=status
+                           )
 
 """
-添加服务器
+    添加服务器
 """
 @main.route("/resources/server/add/", methods=["GET"])
 def resources_server_add():
@@ -192,22 +208,86 @@ def resources_server_doadd():
 修改服务器信息
 /resources/server/modify/1
 """
-@main.route("/resources/server/modify/<server_id>")
+@main.route("/resources/server/modify/<int:server_id>", methods=["GET"])
 def resources_server_modify(server_id):
-    print "server id: {}".format(server_id)
+    # print "server id: {}".format(server_id)
+    # 根据id获取server信息
     server = app.utils.api_action("server.get",
                                   {
                                       "where": {"id": server_id}
                                   })
-    print server
-    return render_template("resources/server_modify.html",
+    if server:
+        # 获取制造商信息
+        manufacturers = app.utils.api_action("manufacturers.get")
+
+        # 取业务线信息
+        products = app.utils.api_action("product.get")
+
+        # 获取服务器状态信息
+        status = app.utils.api_action("status.get")
+
+        # 获取idc信息
+        idc_info = app.utils.api_action("idc.get", {"output": ["name", "id"]})
+
+        # 取机柜信息
+        cabinets = app.utils.api_action("cabinet.get")
+
+        # 获取raid信息
+        raids = app.utils.api_action("raid.get")
+
+        # 获取RAID型号信息
+        raidtypes = app.utils.api_action("raidtype.get")
+
+        # 获取远程管理卡信息
+        managementcardtypes = app.utils.api_action("managementcard.get")
+
+        # 获取电源功率信息
+        powers = app.utils.api_action("power.get")
+
+        # 获取供应商信息
+        suppliers = app.utils.api_action("supplier.get")
+
+        # 远程管理卡
+        managementcards = app.utils.api_action("managementcard.get")
+
+        # print "server type: {}".format(type(server))
+        return render_template("resources/server_edit.html",
                            title="修改服务器",
-                           server=server)
+                           show_resource=True,
+                           show_server_list=True,
+                           server=server[0],
+                           manufacturers=manufacturers,
+                           products=products,
+                           statuses=status,
+                           idc_info=idc_info,
+                           cabinets=cabinets,
+                           powers=powers,
+                           raids=raids,
+                           raidtypes=raidtypes,
+                           managementcardtypes=managementcardtypes,
+                           managementcards=managementcards,
+                           suppliers=suppliers
+                           )
+    return render_template('404.html'), 404
+
+
+"""
+执行修改服务器
+"""
+@main.route("/resources/server/domodify/", methods=["POST"])
+def resources_server_domodify():
+    params = request.form.to_dict()
+    print params
+    ret = app.utils.api_action("server.update", params)
+    jump_url = "/resources/server/list/"
+
+    return app.utils.jump(ret, jump_url, jump_url)
+
 
 """
 添加制造商
 """
-@main.route("/resources/manufacturers/add/", methods=["GET"])
+@main.route("/resources/server/manufacturers/add/", methods=["GET"])
 def resources_manufacturers_add():
     return render_template("resources/server_add_manufacturers.html",
                            title="添加制造商")
@@ -221,7 +301,7 @@ def resources_manufacturers_doadd():
     params = request.form.to_dict()
     print params
     ret = app.utils.api_action("manufacturers.create", params)
-    jump_url = "/resources/manufacturers/add/"
+    jump_url = "/resources/server/manufacturers/add/"
     # if ret:
     #     return render_template("public/success.html",
     #                            next_url="/resources/manufacturers/add/")
@@ -422,6 +502,39 @@ def resources_server_supplier_doadd():
     jump_url = "/resources/server_supplier_add/"
 
     return app.utils.jump(ret, jump_url, jump_url)
+
+
+"""
+    服务器信息自动上报
+"""
+@main.route("/resources/server/reporting/", methods=["POST"])
+def resources_server_reporting():
+    params = request.form.to_dict()
+    now = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+    params['last_op_time'] = now
+    print params
+    # return ""
+
+
+    where = {}
+    if params.get("st", None) and len(params["st"]) > 3:
+        # 物理机
+        where['st'] = params.pop('st')
+    else:
+        where['uuid'] = params.pop('uuid')
+
+    host = app.utils.api_action("server.get", {"where": where})
+
+    if host:
+        # update
+        app.utils.api_action("server.update", {"data": params, "where": {"id": host[0]["id"]}})
+    else:
+        # create
+        params.update(where)
+        app.utils.api_action("server.create", params)
+
+    return ""
+
 
 
 """

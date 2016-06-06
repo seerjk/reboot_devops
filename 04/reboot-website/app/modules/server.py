@@ -16,7 +16,7 @@ def create(**kwargs):
     # print kwargs
 
     # 2 检查参数
-    check_field_exists(Server, kwargs)
+    check_field_exists(Server, kwargs, field_none=False)
 
     # 3 插入到数据库
     server = Server(**kwargs)

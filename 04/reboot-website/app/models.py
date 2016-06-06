@@ -99,7 +99,10 @@ class Supplier(db.Model):
     id                  = db.Column(db.Integer, primary_key=True)
     name                = db.Column(db.String(50), unique=True, default='')
 
-
+"""
+python manage.py db migrate
+python manage.py db upgrade
+"""
 class Server(db.Model):
     __tablename__       = 'server'
     id                  = db.Column(db.Integer, primary_key=True)
@@ -122,7 +125,7 @@ class Server(db.Model):
     hostname            = db.Column(db.String(30), index=True, default='')
     inner_ip            = db.Column(db.String(50), index=True, nullable=True, default='')
     mac_address         = db.Column(db.String(50), nullable=True, default='')
-    ipinfo              = db.Column(db.String(50), nullable=True, default='')
+    ipinfo              = db.Column(db.String(250), nullable=True, default='')
     server_cpu          = db.Column(db.String(50), nullable=True, default='')
     server_disk         = db.Column(db.String(50), nullable=True, default='')
     server_mem          = db.Column(db.String(50), nullable=True, default='')
